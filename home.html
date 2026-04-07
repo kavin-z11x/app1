@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Iswariya's 24th</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="main-page">
+    <!-- 3D Particles Background -->
+    <div id="three-canvas-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Ishu's 24th</div>
+        <ul class="nav-links">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="message.html">Message</a></li>
+            
+            <li><a href="surprise.html">Surprise</a></li>
+        </ul>
+        <button id="music-toggle">🎵 Play</button>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <section class="hero">
+        <h1 class="hero-title">Happy Birthday <br><span class="highlight">Iswariya</span> 🎉</h1>
+        <p class="hero-subtitle">You are the light💫</p>
+        
+        <!-- Animated CSS Cake -->
+        <div class="cake-container">
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+                <div class="frosting"></div>
+                <div class="layer layer-top"></div>
+                <div class="layer layer-bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/threeScene.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>

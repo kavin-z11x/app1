@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise! - Iswariya's 24th</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="surprise-page">
+    <nav class="navbar">
+        <div class="logo">Ishu's 24th</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="message.html">Message</a></li>
+           
+            <li><a href="surprise.html" class="active">Surprise</a></li>
+        </ul>
+        <button id="music-toggle">🎵 Play</button>
+    </nav>
+
+    <div class="surprise-container">
+        <button id="surprise-btn" class="bubbly-button">Click for Surprise 🎁</button>
+        
+        <div id="surprise-content" class="hidden">
+            <h1 class="surprise-title">You deserve all happiness 💖</h1>
+            <p class="surprise-text">Wishing you a year filled with joy, success, and beautiful memories. Keep shining bright!</p>
+            <div id="balloons-container"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/confetti.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
